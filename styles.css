@@ -12,6 +12,27 @@ You will find this is far easier than the opposite task of using CSS to cram you
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 /* Start your base/mobile styles here */
 
+/* Add in the external .css stylesheet*/
+
+.demo {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+/* pseudo element style to fade disable button */
+
+button:disabled {
+  opacity: .5;
+}
+
+img {
+  width: 40%;
+}
+
 html, body {
   /* Sets default font-size to 16px, ensuring 1em = 16px; */
   font-size: 16px;
